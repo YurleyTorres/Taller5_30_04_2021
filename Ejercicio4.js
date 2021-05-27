@@ -11,5 +11,10 @@ function comparar(a, b) {
   }
   lista = lista.sort(comparar);
   alert(`ordenado de menor a mayor: ${lista}`);
-  
+  let mayor = parseInt(lista.length-1);
+  let menor = parseInt(lista.length+1);
+  alert(`El menor es  ${lista[mayor]}` );
+  alert(`El menor es  ${lista[menor]}`);
   console.log('ordenado de menor a mayor:', lista);
+  console.log(`El menor es  ${lista[mayor]}`);
+  console.log(`El menor es  ${lista[menor]}`);
